@@ -4,7 +4,7 @@
 const n1 = 10;
 const n2 = 15;
 const n3 = 20;
-const n4 = 6;
+const n4 = 5;
 
 // Check one: add up to 50
 // This is a fairly simple operation using
@@ -74,7 +74,7 @@ console.log(allfive)
  * than num4 if that return true
  */
 const firstlargelast = n1>n4
-
+console.log(firstlargelast)
 
 /**
  * Third implemantation
@@ -85,11 +85,12 @@ const firstlargelast = n1>n4
 const secondminusfirst = n2-n1
 const multiplythird = secondminusfirst*n3
 const remainderbyfour = multiplythird%n4
-
+console.log(`minus result ${secondminusfirst} multiplyresult ${multiplythird} remainder result ${remainderbyfour}`)
 
 /**
  * Another way to do the conditions
  * All variables can't be larger than 25
  */
 
-const under25 = n1 <= 25 && n2 <- 25 && n3 <= 25 && n4 <= 25
+const under25 = n1 <= 25 && n2 <= 25 && n3 <= 25 && n4 <= 25
+console.log(`verifying all numbers under 25 ${under25}`)
