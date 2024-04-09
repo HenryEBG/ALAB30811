@@ -46,12 +46,6 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
   !(n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25) && 
   (n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4);
 
-/**
- * we have 4 numbers to sum 50
- * two number has to be odd
- * number has to be larger of 25
- * number has to be unique
- */
 
 
 /**
@@ -74,7 +68,7 @@ console.log(allfive)
  * than num4 if that return true
  */
 const firstlargelast = n1>n4
-console.log(firstlargelast)
+console.log(`Verifying if ${n1} is larger than ${n4} and the result is: ${firstlargelast}`)
 
 /**
  * Third implemantation
@@ -85,7 +79,10 @@ console.log(firstlargelast)
 const secondminusfirst = n2-n1
 const multiplythird = secondminusfirst*n3
 const remainderbyfour = multiplythird%n4
-console.log(`minus result ${secondminusfirst} multiplyresult ${multiplythird} remainder result ${remainderbyfour}`)
+console.log(`${n2} minus ${n1} equal to ${secondminusfirst}`) 
+console.log(`The anterior result multipled by ${n3} equal to ${multiplythird}`)
+console.log(`The anterior result remainder by ${n4} is equal to ${remainderbyfour}`)
+
 
 /**
  * Another way to do the conditions
