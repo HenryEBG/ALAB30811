@@ -91,3 +91,59 @@ console.log(`The anterior result remainder by ${n4} is equal to ${remainderbyfou
 
 const under25 = n1 <= 25 && n2 <= 25 && n3 <= 25 && n4 <= 25
 console.log(`verifying all numbers under 25 ${under25}`)
+
+
+/**
+ * SECOND EXERCISE
+ */
+
+const distance = 1500
+const miles55 = 30
+const miles60 = 28
+const miles75 = 23
+
+const budget = 175
+const fuelcost = 3
+
+let gallons 
+let enough
+let timeh
+let velocity
+
+
+/**
+ * Working with 55 miles velocity
+ */
+
+velocity=55
+gallons = distance/miles55
+enough = gallons*3<=budget
+timeh = distance/velocity
+console.log(`if we go at ${velocity} miles/h we consume ${gallons} gallons`)
+console.log(`if we go at ${velocity}  miles/h we can do it with the badget is ${enough}`)
+console.log(`if we go at ${velocity}  miles/h we do the trip in ${timeh} hours`)
+
+
+/**
+ * Working with 60 miles velocity
+ */
+
+velocity=60
+gallons = distance/miles60
+enough = gallons*3<=budget
+timeh = distance/velocity
+console.log(`if we go at ${velocity} miles/h we consume ${gallons} gallons`)
+console.log(`if we go at ${velocity}  miles/h we can do it with the badget is ${enough}`)
+console.log(`if we go at ${velocity}  miles/h we do the trip in ${timeh} hours`)
+
+/**
+ * Working with 75 miles velocity
+ */
+
+velocity=75
+gallons = distance/miles75
+enough = gallons*3<=budget
+timeh = distance/velocity
+console.log(`if we go at ${velocity} miles/h we consume ${gallons} gallons`)
+console.log(`if we go at ${velocity}  miles/h we can do it with the badget is ${enough}`)
+console.log(`if we go at ${velocity}  miles/h we do the trip in ${timeh} hours`)
