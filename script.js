@@ -5,7 +5,7 @@ const n1 = 10;
 const n2 = 15;
 const n3 = 20;
 const n4 = 5;
-
+/*
 // Check one: add up to 50
 // This is a fairly simple operation using
 // arithmetic operators and a comparison.
@@ -46,7 +46,7 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
   !(n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25) && 
   (n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4);
 
-
+*/
 
 /**
  * Exercise resolving using example before
@@ -54,18 +54,18 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
 
 
 /**
- * First Condition
- * All numbers are visible by 5
+ * First Implementation
+ * All numbers are divisible by 5
  * We apply module 5 and if all are 0
  * return true
  */
 const allfive = (n1%5+n2%5+n3%5+n4%5)==0
-console.log(allfive)
+console.log(`Is ${allfive} that all numbers are divsible by 5`)
 /**
- * Second condition
+ * Second Implementation
  * Check if first number is larger than the last
- * We compare num1 to num4 and se if num1 is larger
- * than num4 if that return true
+ * We compare n1 to n4 and se if n1 is larger
+ * than n4 if that return true
  */
 const firstlargelast = n1>n4
 console.log(`Verifying if ${n1} is larger than ${n4} and the result is: ${firstlargelast}`)
@@ -85,7 +85,7 @@ console.log(`The anterior result remainder by ${n4} is equal to ${remainderbyfou
 
 
 /**
- * Another way to do the conditions
+ * Another way to do the conditions isOver25 without using ! operator
  * All variables can't be larger than 25
  */
 
@@ -97,6 +97,9 @@ console.log(`verifying all numbers under 25 ${under25}`)
  * SECOND EXERCISE
  */
 
+/**
+ * Constant and variables declaration
+ **/
 const distance = 1500
 const miles55 = 30
 const miles60 = 28
@@ -110,6 +113,7 @@ let enough
 let timeh
 let velocity
 
+ 
 
 /**
  * Working with 55 miles velocity
