@@ -118,11 +118,15 @@ let velocity
 /**
  * Working with 55 miles velocity
  */
-
+// miles to try
 velocity=55
+//gallons consume are distance/miles to consume a gallon
 gallons = distance/miles55
+//enough get a true value if gallons consume*3 are less or equal to the budget
 enough = gallons*3<=budget
+//calculate the time.  It will be the distance/the velocity of the car
 timeh = distance/velocity
+//print results of the operation.
 console.log(`if we go at ${velocity} miles/h we consume ${gallons} gallons`)
 console.log(`if we go at ${velocity}  miles/h we can do it with the badget is ${enough}`)
 console.log(`if we go at ${velocity}  miles/h we do the trip in ${timeh} hours`)
